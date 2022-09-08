@@ -1,0 +1,73 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.Navbar{
+height: 100px;
+max-width: 900px;
+background-color: orange;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+input{
+height: 40px;
+width: 300px;
+border-radius: 10px;
+margin-top: 25px;
+}
+/* h1{
+  
+
+  margin:10px;
+  font-size: 30px;
+  height: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px; 
+} */
+.Navbar button{
+  height: 40px;
+  width: 100px;
+  background-color: crimson;
+  border-radius: 5px;
+  
+}
+.home{
+  background-color: aqua;
+  max-width: 900px;
+  margin: auto;
+}
+.animelist{
+  background-color: rgb(34, 165, 165);
+  display:grid;
+  grid-template-columns: 300px 300px;
+  justify-content: center;
+
+  /* grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+max-width: 900px;
+margin: auto; */
+}
+.anime{
+  background-color: rgb(144, 144, 187);
+  border-radius: 10px;
+ padding: 5px;
+  margin: 20px;
+}
+/* .anime button{
+margin-left: 220px;
+} */
+.anime button:active{
+  transform: scale(1,1.2);
+}
+nav a{
+  font-size: 20px;
+  padding: 6px;
+  background-color: crimson;
+  color: crimson;
+  text-decoration: none;
+  border-radius: 8px;
+}
